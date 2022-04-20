@@ -16,11 +16,15 @@ public class SpringBootJenkinsApplication {
 	public void init()
 	{
 		logger.info("application started.");
+		
+		logger.info("after changes in init method.");
 	}
 
 	public static void main(String[] args) {
 		
 		logger.info("application Executed.");
+		
+		logger.info("after changes in sts tool.");
 		
 		SpringApplication.run(SpringBootJenkinsApplication.class, args);
 	}

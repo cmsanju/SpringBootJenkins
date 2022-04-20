@@ -17,6 +17,8 @@ class SpringBootJenkinsApplicationTests {
 		
 		logger.info("test cases executed.");
 		
+		logger.info("test cases executed. after changes");
+		
 		assertEquals(true, true);
 	}
 
