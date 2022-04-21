@@ -18,6 +18,8 @@ public class SpringBootJenkinsApplication {
 		logger.info("application started.");
 		
 		logger.info("after changes in init method.");
+		
+		logger.info("after changes in init method. pipeline config.");
 	}
 
 	public static void main(String[] args) {
