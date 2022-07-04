@@ -18,6 +18,8 @@ public class SpringBootJenkinsApplication {
 		logger.info("application started.");
 		
 		logger.info("after changes in init method.");
+		
+		logger.info("hello new user");
 	}
 
 	public static void main(String[] args) {
@@ -25,6 +27,8 @@ public class SpringBootJenkinsApplication {
 		logger.info("application Executed.");
 		
 		logger.info("after changes in sts tool.");
+		
+		logger.info("hello new user main method");
 		
 		SpringApplication.run(SpringBootJenkinsApplication.class, args);
 	}
