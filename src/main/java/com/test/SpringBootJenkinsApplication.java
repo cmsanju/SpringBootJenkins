@@ -32,6 +32,8 @@ public class SpringBootJenkinsApplication {
 		
 		logger.info("after changes in sts tool.");
 		
+		logger.info("after changes in init method. pipeline config. Today 05");
+		
 		SpringApplication.run(SpringBootJenkinsApplication.class, args);
 	}
 
