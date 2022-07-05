@@ -22,6 +22,8 @@ public class SpringBootJenkinsApplication {
 		logger.info("after changes in init method. pipeline config.");
 		
 		logger.info("after changes in init method. pipeline config. Today");
+		
+		logger.info("after changes in init method. pipeline config. Today 05");
 	}
 
 	public static void main(String[] args) {
