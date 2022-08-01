@@ -36,6 +36,8 @@ public class SpringBootJenkinsApplication {
 		
 		logger.info("after changes in init method. pipeline config. Today 05");
 		
+		logger.info("application Executed. zensar.");
+		
 		SpringApplication.run(SpringBootJenkinsApplication.class, args);
 	}
 
