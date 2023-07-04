@@ -26,6 +26,8 @@ public class SpringBootJenkinsApplication {
 		logger.info("after changes in init method. pipeline config. Today 05");
 		
 		logger.info("after changes in init method. pipeline config. B4");
+
+		logger.info("application started. evoke");
 	}
 
 	public static void main(String[] args) {
@@ -37,6 +39,8 @@ public class SpringBootJenkinsApplication {
 		logger.info("after changes in init method. pipeline config. Today 05");
 		
 		logger.info("application Executed. zensar.");
+
+		logger.info("application started. evoke");
 		
 		SpringApplication.run(SpringBootJenkinsApplication.class, args);
 	}
