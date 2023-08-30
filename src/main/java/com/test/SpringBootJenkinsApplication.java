@@ -27,7 +27,8 @@ public class SpringBootJenkinsApplication {
 		
 		logger.info("after changes in init method. pipeline config. B4");
 
-		logger.info("application started. evoke");
+		
+		logger.info("application started. GMST Service.");
 	}
 
 	public static void main(String[] args) {
@@ -40,7 +41,7 @@ public class SpringBootJenkinsApplication {
 		
 		logger.info("application Executed. zensar.");
 
-		logger.info("application started. evoke");
+		logger.info("application started. GMST Service.");
 		
 		SpringApplication.run(SpringBootJenkinsApplication.class, args);
 	}
