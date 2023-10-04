@@ -15,6 +15,8 @@ public class SpringBootJenkinsApplication {
 	@PostConstruct
 	public void init()
 	{
+		logger.info("application started. amdocs");
+		
 		logger.info("application started.");
 		
 		logger.info("after changes in init method.");
@@ -42,6 +44,8 @@ public class SpringBootJenkinsApplication {
 		logger.info("application Executed. zensar.");
 
 		logger.info("application started. GMST Service.");
+
+		logger.info("application started. amdocs in main method");
 		
 		SpringApplication.run(SpringBootJenkinsApplication.class, args);
 	}
